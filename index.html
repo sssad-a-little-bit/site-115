@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Ешь Мясо — Шашлык, гриль, пицца 24/7 | Доставка в Павлодаре</title>
+  <meta name="description" content="Ешь Мясо — круглосуточная доставка шашлыка, курицы гриль, пиццы, бургеров и сетов в Павлодаре. Работаем 24/7. Академика Чокина, 147. Заказать за минуты." />
+  <meta name="keywords" content="шашлык Павлодар, доставка еды Павлодар, еда 24/7, курица гриль, пицца, бургеры, Ешь Мясо" />
+  <link rel="canonical" href="https://esh-myaso.kz/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ешь Мясо — Мясо. Огонь. 24/7" />
+  <meta property="og:description" content="Шашлык, гриль, пицца и сеты — заказывайте в любое время. Доставка 24/7 в Павлодаре." />
+  <meta property="og:locale" content="ru_KZ" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#151311" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Ешь Мясо",
+    "description": "Круглосуточная доставка шашлыка, гриля, пиццы и бургеров в Павлодаре",
+    "url": "https://esh-myaso.kz/",
+    "telephone": "+77028011186",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Академика Чокина, 147",
+      "addressLocality": "Павлодар",
+      "addressCountry": "KZ"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "servesCuisine": ["Шашлык", "Гриль", "Пицца", "Бургеры"],
+    "priceRange": "₸₸",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "688",
+      "bestRating": "5"
+    },
+    "sameAs": ["https://www.instagram.com/esh_myaso_24na7/"]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #151311;
+      --bg-elevated: #1e1a16;
+      --bg-soft: #26211c;
+      --paper: #f2ece1;
+      --paper-dim: #e8e0d2;
+      --text: #f6f0e7;
+      --text-muted: #b8aea1;
+      --text-dark: #1a1612;
+      --accent: #a63a2e;
+      --accent-hover: #c24a3c;
+      --accent-warm: #c87538;
+      --border: rgba(255,255,255,0.08);
+      --border-strong: rgba(255,255,255,0.14);
+      --radius-sm: 10px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-full: 999px;
+      --container: 1180px;
+      --shadow: 0 12px 40px rgba(0,0,0,0.35);
+      --font: "Manrope", system-ui, -apple-system, sans-serif;
+      --header-h: 72px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container {
+      width: min(100% - 2rem, var(--container));
+      margin-inline: auto;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      min-height: 52px;
+      padding: 0 1.35rem;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: -0.01em;
+      transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease, opacity 0.18s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(166, 58, 46, 0.35);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border-strong);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.25);
+    }
+    .btn-paper {
+      background: var(--paper);
+      color: var(--text-dark);
+    }
+    .btn-paper:hover {
+      background: #fff;
+      transform: translateY(-2px);
+    }
+    .btn-sm {
+      min-height: 44px;
+      padding: 0 1.1rem;
+      font-size: 0.875rem;
+    }
+    .btn-icon {
+      width: 48px;
+      height: 48px;
+      min-height: 48px;
+      padding: 0;
+      border-radius: 50%;
+    }
+
+    /* Header */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      height: var(--header-h);
+      background: rgba(21, 19, 17, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      gap: 1rem;
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: -0.03em;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .logo span { color: var(--accent); }
+    .nav-desktop {
+      display: none;
+      gap: 1.75rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+    .nav-desktop a:hover { color: var(--text); }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .header-phone {
+      display: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    .burger {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+    }
+    .burger span {
+      display: block;
+      width: 18px;
+      height: 2px;
+      background: var(--text);
+      position: relative;
+    }
+    .burger span::before,
+    .burger span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 18px;
+      height: 2px;
+      background: var(--text);
+    }
+    .burger span::before { top: -6px; }
+    .burger span::after { top: 6px; }
+
+    /* Mobile menu */
+    .mobile-nav {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: var(--bg);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+    }
+    .mobile-nav.open { transform: translateX(0); }
+    .mobile-nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .mobile-nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .mobile-nav-links a {
+      font-size: 1.35rem;
+      font-weight: 600;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .mobile-nav-footer {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding: calc(var(--header-h) + 2.5rem) 0 3.5rem;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 20%, rgba(166, 58, 46, 0.18), transparent 55%),
+        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(200, 117, 56, 0.08), transparent 50%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      gap: 2.5rem;
+      align-items: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent-warm);
+      margin-bottom: 1rem;
+    }
+    .hero-eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px rgba(166, 58, 46, 0.25);
+    }
+    .hero h1 {
+      font-size: clamp(2.4rem, 8vw, 4.2rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      margin-bottom: 1.1rem;
+    }
+    .hero h1 .line { display: block; }
+    .hero-lead {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 28rem;
+      margin-bottom: 1.75rem;
+    }
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      align-items: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .hero-meta strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+    .rating-stars {
+      color: var(--accent-warm);
+      letter-spacing: 0.05em;
+    }
+    .hero-visual {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      background: var(--bg-soft);
+      box-shadow: var(--shadow);
+    }
+    .hero-visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hero-badge {
+      position: absolute;
+      bottom: 1.25rem;
+      left: 1.25rem;
+      right: 1.25rem;
+      background: rgba(21, 19, 17, 0.82);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 0.9rem 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .hero-badge strong {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .hero-badge span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Quick categories */
+    .quick-cats {
+      padding: 0 0 2.5rem;
+    }
+    .quick-cats-scroll {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      padding: 0.25rem 0 0.5rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .quick-cats-scroll::-webkit-scrollbar { display: none; }
+    .quick-cat {
+      flex-shrink: 0;
+      padding: 0.7rem 1.2rem;
+      border-radius: var(--radius-full);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .quick-cat:hover,
+    .quick-cat.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* Section common */
+    .section {
+      padding: 3.5rem 0;
+    }
+    .section-header {
+      margin-bottom: 2rem;
+    }
+    .section-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-warm);
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-size: clamp(1.6rem, 4vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+    .section-lead {
+      margin-top: 0.6rem;
+      color: var(--text-muted);
+      max-width: 36rem;
+    }
+
+    /* Product grid */
+    .menu-tabs {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      scrollbar-width: none;
+      position: sticky;
+      top: var(--header-h);
+      z-index: 40;
+      background: linear-gradient(var(--bg) 70%, transparent);
+      padding-top: 0.5rem;
+    }
+    .menu-tabs::-webkit-scrollbar { display: none; }
+    .menu-tab {
+      flex-shrink: 0;
+      padding: 0.65rem 1.15rem;
+      border-radius: var(--radius-full);
+      font-weight: 600;
+      font-size: 0.875rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+    }
+    .menu-tab.active,
+    .menu-tab:hover {
+      background: var(--paper);
+      color: var(--text-dark);
+      border-color: var(--paper);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .product-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .product-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-strong);
+    }
+    .product-card__img {
+      aspect-ratio: 4/3;
+      background: var(--bg-soft);
+      overflow: hidden;
+    }
+    .product-card__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .product-card:hover .product-card__img img {
+      transform: scale(1.04);
+    }
+    .product-card__body {
+      padding: 1.1rem 1.15rem 1.2rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 0.35rem;
+    }
+    .product-card__title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .product-card__desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+      flex: 1;
+    }
+    .product-card__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-top: 0.85rem;
+    }
+    .product-card__price {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .product-card__price small {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    /* Sets */
+    .sets-grid {
+      display: grid;
+      gap: 1.25rem;
+    }
+    .set-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .set-card__img {
+      aspect-ratio: 16/10;
+      background: var(--bg-soft);
+      overflow: hidden;
+    }
+    .set-card__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .set-card__body {
+      padding: 1.4rem 1.35rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .set-card__num {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent-warm);
+    }
+    .set-card__title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .set-card__list {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    .set-card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .set-card__price {
+      font-size: 1.4rem;
+      font-weight: 800;
+    }
+
+    /* Night block */
+    .night-block {
+      position: relative;
+      padding: 4.5rem 0;
+      overflow: hidden;
+    }
+    .night-block::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(21,19,17,0.92) 0%, rgba(21,19,17,0.75) 50%, rgba(166,58,46,0.25) 100%),
+        url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=80") center/cover;
+      z-index: 0;
+    }
+    .night-block .container { position: relative; z-index: 1; }
+    .night-block h2 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.85rem;
+    }
+    .night-block p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 28rem;
+      margin-bottom: 1.75rem;
+    }
+
+    /* Delivery steps */
+    .steps {
+      display: grid;
+      gap: 1.25rem;
+      counter-reset: step;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+      align-items: start;
+      padding: 1.25rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+    .step-num {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .step p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .feature {
+      padding: 1.35rem 1.1rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+    .feature h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+    .feature p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* Reviews */
+    .reviews-grid {
+      display: grid;
+      gap: 1rem;
+    }
+    .review-card {
+      padding: 1.35rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+    .review-card .stars {
+      color: var(--accent-warm);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .review-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+    .review-card footer {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Branches */
+    .branches-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 0.85rem;
+    }
+    .branch-card {
+      padding: 1.1rem 1.2rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .branch-card strong {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .branch-card span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .branch-card .badge-24 {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent-warm);
+    }
+
+    /* FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--bg-elevated);
+    }
+    .faq-q {
+      width: 100%;
+      text-align: left;
+      padding: 1.1rem 1.25rem;
+      font-weight: 600;
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .faq-q::after {
+      content: "+";
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      transition: transform 0.2s;
+    }
+    .faq-item.open .faq-q::after {
+      transform: rotate(45deg);
+    }
+    .faq-a {
+      display: none;
+      padding: 0 1.25rem 1.2rem;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    .faq-item.open .faq-a { display: block; }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .contact-card {
+      padding: 1.5rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+    }
+    .contact-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .contact-phones {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .contact-phones a {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+    .contact-phones a:hover { color: var(--accent-warm); }
+
+    /* Footer */
+    .footer {
+      padding: 3rem 0 6rem;
+      border-top: 1px solid var(--border);
+      background: var(--bg-elevated);
+    }
+    .footer-grid {
+      display: grid;
+      gap: 2rem;
+    }
+    .footer-brand {
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .footer-brand span { color: var(--accent); }
+    .footer p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 22rem;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.5rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .footer-links a:hover { color: var(--text); }
+    .footer-bottom {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+
+    /* Sticky bottom bar */
+    .sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 90;
+      padding: 0.65rem 1rem;
+      padding-bottom: max(0.65rem, env(safe-area-inset-bottom));
+      background: rgba(21, 19, 17, 0.94);
+      backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.6rem;
+      transform: translateY(100%);
+      transition: transform 0.25s ease;
+    }
+    .sticky-bar.visible { transform: translateY(0); }
+    .sticky-bar .btn { flex: 1; min-height: 48px; }
+
+    /* Floating order */
+    .float-order {
+      position: fixed;
+      bottom: 5.5rem;
+      right: 1rem;
+      z-index: 80;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 28px rgba(166, 58, 46, 0.45);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .float-order:hover {
+      transform: translateY(-3px) scale(1.05);
+      background: var(--accent-hover);
+    }
+    .float-order svg { width: 24px; height: 24px; }
+
+    /* Cart drawer */
+    .cart-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+      z-index: 300;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s, visibility 0.25s;
+    }
+    .cart-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    .cart-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(100%, 400px);
+      background: var(--bg);
+      z-index: 310;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid var(--border);
+    }
+    .cart-overlay.open .cart-drawer { transform: translateX(0); }
+    .cart-header {
+      padding: 1.25rem 1.35rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .cart-header h2 { font-size: 1.2rem; font-weight: 800; }
+    .cart-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 1.35rem;
+    }
+    .cart-empty {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+    }
+    .cart-item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.5rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .cart-item-name { font-weight: 600; }
+    .cart-item-price { font-weight: 700; }
+    .cart-item-qty {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.35rem;
+    }
+    .cart-item-qty button {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cart-footer {
+      padding: 1.25rem 1.35rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+    .cart-total {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.15rem;
+      font-weight: 800;
+    }
+    .cart-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--paper);
+      color: var(--text-dark);
+      font-size: 0.7rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Price anchors */
+    .price-anchors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .price-anchor {
+      padding: 0.65rem 1rem;
+      background: var(--bg-soft);
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+    }
+    .price-anchor strong {
+      display: block;
+      font-size: 1.05rem;
+      font-weight: 800;
+    }
+
+    /* Desktop */
+    @media (min-width: 768px) {
+      .hero-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+      .hero { padding-top: calc(var(--header-h) + 3.5rem); padding-bottom: 4.5rem; }
+      .sets-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .set-card {
+        grid-template-columns: 1.1fr 1fr;
+      }
+      .set-card__img {
+        aspect-ratio: auto;
+        min-height: 100%;
+      }
+      .steps {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .contact-grid {
+        grid-template-columns: 1.2fr 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1.4fr 1fr;
+      }
+      .sticky-bar { display: none; }
+      .float-order { bottom: 1.5rem; right: 1.5rem; }
+    }
+
+    @media (min-width: 1024px) {
+      .nav-desktop { display: flex; }
+      .burger { display: none; }
+      .header-phone { display: block; }
+      .steps {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Placeholder for images */
+    .img-placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(145deg, #2a2420, #1a1612);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">ЕШЬ <span>МЯСО</span></a>
+      <nav class="nav-desktop">
+        <a href="#menu">Меню</a>
+        <a href="#sets">Сеты</a>
+        <a href="#delivery">Доставка</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#branches">Филиалы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+77028011186" class="header-phone">+7 702 801-11-86</a>
+        <button class="btn btn-primary btn-sm" id="headerOrderBtn" type="button">Заказать</button>
+        <button class="burger" id="burgerBtn" aria-label="Меню" type="button"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <span class="logo">ЕШЬ <span>МЯСО</span></span>
+      <button class="btn-icon" id="closeNav" aria-label="Закрыть" type="button">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="#menu" data-close>Меню</a>
+      <a href="#sets" data-close>Сеты</a>
+      <a href="#delivery" data-close>Доставка</a>
+      <a href="#reviews" data-close>Отзывы</a>
+      <a href="#branches" data-close>Филиалы</a>
+      <a href="#contacts" data-close>Контакты</a>
+      <a href="#faq" data-close>Вопросы</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="tel:+77028011186" class="btn btn-secondary">Позвонить</a>
+      <button class="btn btn-primary" id="mobileOrderBtn" type="button">Заказать сейчас</button>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-eyebrow">Павлодар · 24/7</div>
+        <h1>
+          <span class="line">МЯСО.</span>
+          <span class="line">ОГОНЬ.</span>
+          <span class="line">24/7.</span>
+        </h1>
+        <p class="hero-lead">Шашлык, курица гриль, пицца, бургеры и сеты — заказывайте в любое время суток.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary">Смотреть меню</a>
+          <button class="btn btn-secondary" id="heroOrderBtn" type="button">Заказать сейчас</button>
+        </div>
+        <div class="hero-meta">
+          <span class="rating-stars">★ 4.7</span>
+          <span>2ГИС · 688 оценок</span>
+          <span><strong>24/7</strong></span>
+          <span>Академика Чокина, 147</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img
+          src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=900&q=80"
+          alt="Шашлык на гриле"
+          width="600"
+          height="750"
+          fetchpriority="high"
+        />
+        <div class="hero-badge">
+          <div>
+            <strong>Доставка 24/7</strong>
+            <span>до 30 минут*</span>
+          </div>
+          <a href="#menu" class="btn btn-paper btn-sm">Меню</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick categories -->
+  <div class="quick-cats">
+    <div class="container">
+      <div class="quick-cats-scroll">
+        <a href="#cat-shashlik" class="quick-cat">Шашлык</a>
+        <a href="#cat-sets" class="quick-cat">Сеты</a>
+        <a href="#cat-chicken" class="quick-cat">Курица гриль</a>
+        <a href="#cat-pizza" class="quick-cat">Пицца</a>
+        <a href="#cat-burgers" class="quick-cat">Бургеры</a>
+        <a href="#cat-shawarma" class="quick-cat">Шаурма</a>
+        <a href="#cat-fry" class="quick-cat">Фритюр</a>
+        <a href="#cat-sides" class="quick-cat">Гарниры</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🕐</div>
+          <h3>24/7</h3>
+          <p>Круглосуточно</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🔥</div>
+          <h3>Гриль</h3>
+          <p>Шашлык и курица</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🍕</div>
+          <h3>Пицца</h3>
+          <p>и бургеры</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">👥</div>
+          <h3>Сеты</h3>
+          <p>для компании</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🛵</div>
+          <h3>Доставка</h3>
+          <p>по городу</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🍺</div>
+          <h3>К мясу</h3>
+          <p>разливное</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Меню</div>
+        <h2 class="section-title">Что заказать</h2>
+        <p class="section-lead">Выберите блюдо — заказ уйдёт в WhatsApp с готовым текстом.</p>
+        <div class="price-anchors">
+          <div class="price-anchor">Закуски <strong>от 800 ₸</strong></div>
+          <div class="price-anchor">Бургеры <strong>от 1 750 ₸</strong></div>
+          <div class="price-anchor">Шашлык <strong>от 2 500 ₸</strong></div>
+          <div class="price-anchor">Сеты <strong>от 5 600 ₸</strong></div>
+        </div>
+      </div>
+
+      <div class="menu-tabs" id="menuTabs" role="tablist">
+        <button class="menu-tab active" data-cat="all" type="button">Все</button>
+        <button class="menu-tab" data-cat="shashlik" type="button">Шашлык</button>
+        <button class="menu-tab" data-cat="chicken" type="button">Курица</button>
+        <button class="menu-tab" data-cat="pizza" type="button">Пицца</button>
+        <button class="menu-tab" data-cat="burgers" type="button">Бургеры</button>
+        <button class="menu-tab" data-cat="shawarma" type="button">Шаурма</button>
+        <button class="menu-tab" data-cat="fry" type="button">Фритюр</button>
+        <button class="menu-tab" data-cat="sides" type="button">Гарниры</button>
+        <button class="menu-tab" data-cat="sauces" type="button">Соусы</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sets -->
+  <section class="section" id="sets" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Для компании</div>
+        <h2 class="section-title">Сеты</h2>
+        <p class="section-lead">Когда нужно накормить всех — без лишних выборов.</p>
+      </div>
+      <div class="sets-grid" id="setsGrid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Night block -->
+  <section class="night-block" id="night">
+    <div class="container">
+      <h2>Ночь.<br>Голод.<br>Мясо.</h2>
+      <p>Когда вокруг уже всё закрывается, «Ешь Мясо» продолжает работать.</p>
+      <button class="btn btn-primary" id="nightOrderBtn" type="button">Заказать сейчас</button>
+    </div>
+  </section>
+
+  <!-- Delivery -->
+  <section class="section" id="delivery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Как это работает</div>
+        <h2 class="section-title">Доставка</h2>
+        <p class="section-lead">От выбора до горячей еды — четыре простых шага.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div>
+            <h3>Выбираете блюда</h3>
+            <p>В меню на сайте или пишете нам в WhatsApp.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div>
+            <h3>Оформляете заказ</h3>
+            <p>Указываете адрес и способ связи.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div>
+            <h3>Мы готовим</h3>
+            <p>Шашлык, гриль, пицца — сразу в работу.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div>
+            <h3>Получаете</h3>
+            <p>Горячую еду. Время зависит от адреса и загрузки.</p>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top: 1.75rem; font-size: 0.9rem; color: var(--text-muted);">
+        * Доставка 24/7. Время «до 30 минут» — рекламный ориентир 2ГИС; фактическое время и стоимость зависят от адреса и загрузки. Уточняйте при заказе.
+      </p>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section" id="reviews" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Отзывы</div>
+        <h2 class="section-title">Что пишут гости</h2>
+        <p class="section-lead">Реальные отзывы с 2ГИС. Рейтинг основной точки: ★ 4.7</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Очень вкусные шашлыки. 👍</p>
+          <footer>Владимир Богданов · 2ГИС</footer>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Заказывал люля-кебаб — быстрая доставка, порция мощная, свежий и горячий. Рекомендую.</p>
+          <footer>BOSS · 2ГИС</footer>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Доставка быстрая, курица и шашлыки всегда вкусные. Если хотите хорошо провести вечер — только в Ешь Мясо.</p>
+          <footer>Гость · 2ГИС</footer>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Вкусные бургеры, квас отменный, обслуживание на высшем уровне и скорость доставки. Молодцы.</p>
+          <footer>Ala S · 2ГИС</footer>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Самое лучшее Ешь Мясо. Ребята работают вообще лучше, всегда улыбаются.</p>
+          <footer>Angelina Stupak · 2ГИС</footer>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>Молодцы — быстро доставили и цена адекватная.</p>
+          <footer>Николай Копко · 2ГИС</footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branches -->
+  <section class="section" id="branches">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Сеть</div>
+        <h2 class="section-title">Ешь Мясо рядом с вами</h2>
+        <p class="section-lead">Точки в Павлодаре и Аксу. Основная кухня и доставка — с Чокина, 147.</p>
+      </div>
+      <div class="branches-grid">
+        <div class="branch-card">
+          <strong>Академика Чокина, 147</strong>
+          <span>Основная точка · ★ 4.7</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Торайгырова, 95</strong>
+          <span>★ 4.7</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Машхур Жусупа, 40</strong>
+          <span>★ ~4.0</span>
+        </div>
+        <div class="branch-card">
+          <strong>Лермонтова, 106</strong>
+          <span>★ ~4.5</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Естая, 99</strong>
+          <span>★ ~4.2</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Минина, 42</strong>
+          <span>★ ~3.8</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Айманова, 26</strong>
+          <span>★ ~3.3</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Павлова, 30</strong>
+          <span>★ ~3.9</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Майры, 28/2</strong>
+          <span>★ ~3.9</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Кутузова / Назарбаева, 303</strong>
+          <span>Новая точка</span>
+          <span class="badge-24">24/7</span>
+        </div>
+        <div class="branch-card">
+          <strong>Аксу, Ленина 45/1</strong>
+          <span>Филиал в Аксу</span>
+          <span class="badge-24">24/7</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">FAQ</div>
+        <h2 class="section-title">Частые вопросы</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item open">
+          <button class="faq-q" type="button">Работаете ли вы круглосуточно?</button>
+          <div class="faq-a">Да. Точки и доставка заявлены как 24/7. В праздники график может меняться — уточняйте в WhatsApp или по телефону.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">Можно ли заказать ночью?</button>
+          <div class="faq-a">Да. Ночью можно заказать шашлык, гриль, пиццу, бургеры и другие позиции из меню.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">Как оформить доставку?</button>
+          <div class="faq-a">Выберите блюда на сайте и нажмите «Заказать» — откроется WhatsApp с готовым текстом заказа. Либо позвоните: +7 702 801-11-86, +7 776 801-11-86, +7 747 801-11-88.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">Сколько стоит доставка?</button>
+          <div class="faq-a">Стоимость и условия зависят от адреса и состава заказа. Уточняйте при оформлении. На сторонних сервисах встречались ориентиры от ~700–1000 ₸.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">Где находится основная точка?</button>
+          <div class="faq-a">ул. Академика Чокина, 147, Павлодар. Есть и другие филиалы по городу — см. блок «Филиалы».</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">Есть ли алкоголь?</button>
+          <div class="faq-a">В каталоге есть разливное пиво и другие напитки. Условия продажи и доставки алкоголя — по законодательству РК и правилам заведения. Уточняйте при заказе.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Связь</div>
+        <h2 class="section-title">Контакты</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Заказать</h3>
+          <div class="contact-phones">
+            <a href="tel:+77028011186">+7 702 801-11-86</a>
+            <a href="tel:+77768011186">+7 776 801-11-86</a>
+            <a href="tel:+77478011188">+7 747 801-11-88</a>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
+            <button class="btn btn-primary" id="contactOrderBtn" type="button">Заказать в WhatsApp</button>
+            <a href="https://www.instagram.com/esh_myaso_24na7/" target="_blank" rel="noopener" class="btn btn-secondary">Instagram</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Адрес</h3>
+          <p style="font-size:1.05rem;font-weight:600;margin-bottom:0.5rem;">ул. Академика Чокина, 147</p>
+          <p style="color:var(--text-muted);font-size:0.95rem;margin-bottom:1rem;">Павлодар · круглосуточно</p>
+          <p style="font-size:0.9rem;color:var(--text-muted);">Instagram: @esh_myaso_24na7</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">ЕШЬ <span>МЯСО</span></div>
+          <p>Шашлык, гриль, пицца и сеты — когда захочется. Павлодар, 24/7.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#menu">Меню</a>
+          <a href="#sets">Сеты</a>
+          <a href="#delivery">Доставка</a>
+          <a href="#branches">Филиалы</a>
+          <a href="#contacts">Контакты</a>
+          <a href="https://www.instagram.com/esh_myaso_24na7/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© Ешь Мясо · Павлодар</span>
+        <span>Цены и наличие уточняйте при заказе</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky bar mobile -->
+  <div class="sticky-bar" id="stickyBar">
+    <a href="#menu" class="btn btn-secondary">Меню</a>
+    <button class="btn btn-primary" id="stickyOrderBtn" type="button">Заказать</button>
+  </div>
+
+  <!-- Float order (brand color, not green) -->
+  <a href="#" class="float-order" id="floatOrder" aria-label="Заказать в WhatsApp" title="Заказать">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.288-1.244l-.307-.184-3.145.938.947-3.07-.2-.316A7.96 7.96 0 014 12a8 8 0 1116 0 8 8 0 01-8 8z"/>
+    </svg>
+  </a>
+
+  <!-- Cart -->
+  <div class="cart-overlay" id="cartOverlay">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <h2>Корзина</h2>
+        <button type="button" id="closeCart" aria-label="Закрыть" style="font-size:1.5rem;line-height:1;">×</button>
+      </div>
+      <div class="cart-body" id="cartBody"></div>
+      <div class="cart-footer" id="cartFooter" style="display:none;">
+        <div class="cart-total">
+          <span>Итого</span>
+          <span id="cartTotal">0 ₸</span>
+        </div>
+        <button class="btn btn-primary" id="checkoutBtn" type="button" style="width:100%;">Оформить в WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Contacts
+    const WA_PHONE = "77478011188";
+    const PHONES = {
+      main: "+77028011186",
+      alt: "+77768011186",
+      wa: "+77478011188"
+    };
+
+    function createWhatsAppLink(message) {
+      return `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(message)}`;
+    }
+
+    // Menu data (from PosterShop + brief)
+    const MENU = [
+      { id: "sh1", cat: "shashlik", title: "Шашлык из филе курицы", desc: "Мясо курицы, лаваш, лук с зеленью, фирменный соус", price: 2500, img: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f3?w=600&q=80" },
+      { id: "sh2", cat: "shashlik", title: "Шашлык из баранины", desc: "Мясо баранины, лаваш, лук с зеленью, фирменный соус", price: 3600, img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80" },
+      { id: "sh3", cat: "shashlik", title: "Шашлык из свинины", desc: "Свинина, лаваш, лук, фирменный соус", price: 3200, img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600&q=80" },
+      { id: "sh4", cat: "shashlik", title: "Шашлык из индейки", desc: "Индейка, лаваш, лук, соус", price: 3000, img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80" },
+      { id: "sh5", cat: "shashlik", title: "Люля-кебаб из баранины", desc: "Люля из баранины, лаваш, лук, соус", price: 1900, img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80" },
+      { id: "ch1", cat: "chicken", title: "Курица гриль L", desc: "1 100–1 300 г (сырой вес), с лавашом", price: 3900, img: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600&q=80" },
+      { id: "ch2", cat: "chicken", title: "Курица гриль XL", desc: "около 1 400 г (сырой вес), с лавашом", price: 4500, img: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600&q=80" },
+      { id: "pz1", cat: "pizza", title: "4 сезона", desc: "Классическая пицца", price: 3000, img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d264?w=600&q=80" },
+      { id: "pz2", cat: "pizza", title: "5 сыров", desc: "Сырная пицца", price: 3000, img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" },
+      { id: "pz3", cat: "pizza", title: "Мексика", desc: "Острая пицца", price: 3250, img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" },
+      { id: "pz4", cat: "pizza", title: "Болоньез", desc: "С мясным соусом", price: 3000, img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d264?w=600&q=80" },
+      { id: "pz5", cat: "pizza", title: "Грибная", desc: "С грибами", price: 3000, img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" },
+      { id: "pz6", cat: "pizza", title: "Деревенская", desc: "Сытная пицца", price: 3300, img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" },
+      { id: "pz7", cat: "pizza", title: "Ешь Мясо", desc: "Фирменная: BBQ, моцарелла, гауда, пармезан, фарш, охотничьи колбаски", price: 3600, img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d264?w=600&q=80" },
+      { id: "pz8", cat: "pizza", title: "Баварская", desc: "С колбасками", price: 3150, img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" },
+      { id: "bg1", cat: "burgers", title: "Бургер с курицей", desc: "Куриная котлета", price: 1750, img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" },
+      { id: "bg2", cat: "burgers", title: "Чизбургер курица", desc: "С сыром", price: 1850, img: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80" },
+      { id: "bg3", cat: "burgers", title: "Chicken Burger", desc: "Куриный бургер", price: 1900, img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" },
+      { id: "bg4", cat: "burgers", title: "Бургер с говядиной", desc: "Говяжья котлета", price: 2000, img: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80" },
+      { id: "bg5", cat: "burgers", title: "Чизбургер говядина", desc: "С сыром", price: 2100, img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" },
+      { id: "bg6", cat: "burgers", title: "Burger BBQ", desc: "BBQ с ветчиной", price: 2200, img: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80" },
+      { id: "bg7", cat: "burgers", title: "Beef Burger", desc: "Говяжий бургер", price: 2600, img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" },
+      { id: "sw1", cat: "shawarma", title: "Шаурма с курицей", desc: "Лаваш, курица, овощи", price: 1600, img: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80" },
+      { id: "sw2", cat: "shawarma", title: "Шаурма с сырным соусом", desc: "С сырным соусом", price: 1600, img: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80" },
+      { id: "sw3", cat: "shawarma", title: "Твистер", desc: "В тортилье", price: 1600, img: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80" },
+      { id: "sw4", cat: "shawarma", title: "Шаурма-кебаб из говядины", desc: "С говядиной", price: 1900, img: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80" },
+      { id: "hd1", cat: "shawarma", title: "Хот-дог в булочке", desc: "Классический", price: 950, img: "https://images.unsplash.com/photo-1619740455993-9e0df8e95d0d?w=600&q=80" },
+      { id: "hd2", cat: "shawarma", title: "Хот-дог в лаваше", desc: "В лаваше", price: 850, img: "https://images.unsplash.com/photo-1619740455993-9e0df8e95d0d?w=600&q=80" },
+      { id: "fr1", cat: "fry", title: "Картофель фри", desc: "Классический фри", price: 800, img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80" },
+      { id: "fr2", cat: "fry", title: "Картофельные дольки", desc: "Дольки", price: 850, img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80" },
+      { id: "fr3", cat: "fry", title: "Наггетсы", desc: "Куриные наггетсы", price: 1800, img: "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80" },
+      { id: "fr4", cat: "fry", title: "Острые крылышки", desc: "Крылышки", price: 1950, img: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&q=80" },
+      { id: "fr5", cat: "fry", title: "Сырные палочки", desc: "С сыром", price: 1850, img: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&q=80" },
+      { id: "fr6", cat: "fry", title: "Голень ароматная", desc: "Куриная голень", price: 2900, img: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&q=80" },
+      { id: "fr7", cat: "fry", title: "Мойва жареная", desc: "Жареная мойва", price: 2000, img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" },
+      { id: "fr8", cat: "fry", title: "Бараньи семечки", desc: "Закуска", price: 2600, img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80" },
+      { id: "sd1", cat: "sides", title: "Овощи на гриле", desc: "Гриль-овощи", price: 2500, img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" },
+      { id: "sd2", cat: "sides", title: "Овощная тарелка", desc: "Свежие овощи", price: 2000, img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" },
+      { id: "sd3", cat: "sides", title: "Картофель по-домашнему", desc: "Домашний картофель", price: 450, img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80" },
+      { id: "sd4", cat: "sides", title: "Морковь по-корейски", desc: "250 г", price: 550, img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" },
+      { id: "sc1", cat: "sauces", title: "Белый чесночный", desc: "Соус", price: 400, img: null },
+      { id: "sc2", cat: "sauces", title: "Красный", desc: "Соус", price: 400, img: null },
+      { id: "sc3", cat: "sauces", title: "Цезарь", desc: "Соус", price: 400, img: null },
+      { id: "sc4", cat: "sauces", title: "BBQ", desc: "Соус", price: 400, img: null },
+      { id: "sc5", cat: "sauces", title: "Сырный", desc: "Соус", price: 400, img: null },
+      { id: "sc6", cat: "sauces", title: "Heinz", desc: "Порция", price: 250, img: null },
+      { id: "sc7", cat: "sauces", title: "Халапеньо 20 г", desc: "Острый", price: 200, img: null }
+    ];
+
+    const SETS = [
+      { id: "set8", title: "Сет №8", price: 7050, list: "Компактный сет для компании", img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80" },
+      { id: "set1", title: "Сет №1", price: 7600, list: "Шашлык и дополнения", img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" },
+      { id: "set6", title: "Сет №6", price: 7950, list: "Сытный набор", img: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f3?w=800&q=80" },
+      { id: "set3", title: "Сет №3", price: 8450, list: "Мясной сет", img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80" },
+      { id: "set2", title: "Сет №2", price: 8700, list: "Большой мясной набор", img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80" },
+      { id: "set7", title: "Сет №7", price: 8750, list: "Для большой компании", img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" },
+      { id: "set4", title: "Сет №4", price: 14200, list: "Шашлык из курицы ×2, люля ×2, индейка ×1, свинина ×1, соусы, лук, лаваш", img: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f3?w=800&q=80" },
+      { id: "set5", title: "Сет №5", price: 14850, list: "Большой праздничный сет", img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80" },
+      { id: "set-mb", title: "Сет «Мини-бургеры»", price: 5600, list: "4 мини-бургера (2 курица + 2 говядина) + фри. В подарок 3 Heinz", img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80" },
+      { id: "set-fr", title: "Сет «Фритюр»", price: 5800, list: "Дольки, охотничьи колбаски, сырные палочки, крылышки, наггетсы. В подарок 3 Heinz", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80" }
+    ];
+
+    // Cart
+    let cart = [];
+
+    function formatPrice(n) {
+      return n.toLocaleString("ru-RU") + " ₸";
+    }
+
+    function addToCart(item) {
+      const existing = cart.find(c => c.id === item.id);
+      if (existing) existing.qty += 1;
+      else cart.push({ ...item, qty: 1 });
+      renderCart();
+      openCart();
+    }
+
+    function changeQty(id, delta) {
+      const item = cart.find(c => c.id === id);
+      if (!item) return;
+      item.qty += delta;
+      if (item.qty <= 0) cart = cart.filter(c => c.id !== id);
+      renderCart();
+    }
+
+    function renderCart() {
+      const body = document.getElementById("cartBody");
+      const footer = document.getElementById("cartFooter");
+      const totalEl = document.getElementById("cartTotal");
+      if (cart.length === 0) {
+        body.innerHTML = '<div class="cart-empty">Корзина пуста.<br>Добавьте блюда из меню.</div>';
+        footer.style.display = "none";
+        return;
+      }
+      let total = 0;
+      body.innerHTML = cart.map(item => {
+        total += item.price * item.qty;
+        return `
+          <div class="cart-item">
+            <div>
+              <div class="cart-item-name">${item.title}</div>
+              <div class="cart-item-qty">
+                <button type="button" aria-label="Минус" data-qty="${item.id}" data-d="-1">−</button>
+                <span>${item.qty}</span>
+                <button type="button" aria-label="Плюс" data-qty="${item.id}" data-d="1">+</button>
+              </div>
+            </div>
+            <div class="cart-item-price">${formatPrice(item.price * item.qty)}</div>
+          </div>`;
+      }).join("");
+      totalEl.textContent = formatPrice(total);
+      footer.style.display = "flex";
+      body.querySelectorAll("[data-qty]").forEach(btn => {
+        btn.addEventListener("click", () => changeQty(btn.dataset.qty, +btn.dataset.d));
+      });
+    }
+
+    function openCart() {
+      document.getElementById("cartOverlay").classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+    function closeCart() {
+      document.getElementById("cartOverlay").classList.remove("open");
+      document.body.style.overflow = "";
+    }
+
+    function checkoutWhatsApp() {
+      if (cart.length === 0) {
+        window.open(createWhatsAppLink("Здравствуйте! Хочу сделать заказ."), "_blank");
+        return;
+      }
+      let lines = ["Здравствуйте!", "Хочу сделать заказ:", ""];
+      let total = 0;
+      cart.forEach((item, i) => {
+        lines.push(`${i + 1}. ${item.title} — ${item.qty}`);
+        total += item.price * item.qty;
+      });
+      lines.push("", `Итого по меню: ${formatPrice(total)}`, "", "Адрес доставки:", "");
+      window.open(createWhatsAppLink(lines.join("\n")), "_blank");
+    }
+
+    function orderProduct(item) {
+      const msg = `Здравствуйте! Хочу заказать: ${item.title} — ${formatPrice(item.price)}`;
+      window.open(createWhatsAppLink(msg), "_blank");
+    }
+
+    function openGenericOrder() {
+      if (cart.length > 0) {
+        openCart();
+        return;
+      }
+      window.open(createWhatsAppLink("Здравствуйте! Хочу сделать заказ."), "_blank");
+    }
+
+    // Render products
+    function renderProducts(filter = "all") {
+      const grid = document.getElementById("productGrid");
+      const items = filter === "all" ? MENU : MENU.filter(m => m.cat === filter);
+      grid.innerHTML = items.map(item => `
+        <article class="product-card" data-id="${item.id}">
+          <div class="product-card__img">
+            ${item.img
+              ? `<img src="${item.img}" alt="${item.title}" loading="lazy" width="400" height="300" />`
+              : `<div class="img-placeholder">Соус</div>`}
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">${item.title}</h3>
+            <p class="product-card__desc">${item.desc}</p>
+            <div class="product-card__bottom">
+              <div class="product-card__price">${formatPrice(item.price)}</div>
+              <button class="btn btn-primary btn-sm" type="button" data-add="${item.id}">В корзину</button>
+            </div>
+          </div>
+        </article>
+      `).join("");
+      grid.querySelectorAll("[data-add]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const item = MENU.find(m => m.id === btn.dataset.add);
+          if (item) addToCart(item);
+        });
+      });
+    }
+
+    function renderSets() {
+      const grid = document.getElementById("setsGrid");
+      grid.innerHTML = SETS.map(set => `
+        <article class="set-card">
+          <div class="set-card__img">
+            <img src="${set.img}" alt="${set.title}" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="set-card__body">
+            <div class="set-card__num">Сет</div>
+            <h3 class="set-card__title">${set.title}</h3>
+            <p class="set-card__list">${set.list}</p>
+            <div class="set-card__footer">
+              <div class="set-card__price">${formatPrice(set.price)}</div>
+              <button class="btn btn-primary" type="button" data-set="${set.id}">Заказать сет</button>
+            </div>
+          </div>
+        </article>
+      `).join("");
+      grid.querySelectorAll("[data-set]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const set = SETS.find(s => s.id === btn.dataset.set);
+          if (set) addToCart({ id: set.id, title: set.title, price: set.price, desc: set.list });
+        });
+      });
+    }
+
+    // Tabs
+    document.getElementById("menuTabs").addEventListener("click", e => {
+      const tab = e.target.closest(".menu-tab");
+      if (!tab) return;
+      document.querySelectorAll(".menu-tab").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      renderProducts(tab.dataset.cat);
+    });
+
+    // FAQ
+    document.querySelectorAll(".faq-q").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const item = btn.closest(".faq-item");
+        const wasOpen = item.classList.contains("open");
+        document.querySelectorAll(".faq-item").forEach(i => i.classList.remove("open"));
+        if (!wasOpen) item.classList.add("open");
+      });
+    });
+
+    // Nav
+    const mobileNav = document.getElementById("mobileNav");
+    document.getElementById("burgerBtn").addEventListener("click", () => mobileNav.classList.add("open"));
+    document.getElementById("closeNav").addEventListener("click", () => mobileNav.classList.remove("open"));
+    mobileNav.querySelectorAll("[data-close]").forEach(a => {
+      a.addEventListener("click", () => mobileNav.classList.remove("open"));
+    });
+
+    // Order buttons
+    ["headerOrderBtn", "heroOrderBtn", "mobileOrderBtn", "nightOrderBtn", "contactOrderBtn", "stickyOrderBtn"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener("click", openGenericOrder);
+    });
+    document.getElementById("floatOrder").addEventListener("click", e => {
+      e.preventDefault();
+      openGenericOrder();
+    });
+    document.getElementById("closeCart").addEventListener("click", closeCart);
+    document.getElementById("cartOverlay").addEventListener("click", e => {
+      if (e.target === e.currentTarget) closeCart();
+    });
+    document.getElementById("checkoutBtn").addEventListener("click", checkoutWhatsApp);
+
+    // Sticky bar on scroll
+    const stickyBar = document.getElementById("stickyBar");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) stickyBar.classList.add("visible");
+      else stickyBar.classList.remove("visible");
+    }, { passive: true });
+
+    // Init
+    renderProducts();
+    renderSets();
+    renderCart();
+  </script>
+</body>
+</html>
